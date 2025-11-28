@@ -1,0 +1,17 @@
+# Node dependencies
+node_modules/
+
+# Keeper secrets
+ksm-config.json
+.env
+
+# Mac OS junk
+.DS_Store
+
+# Editor settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
