@@ -200,7 +200,7 @@ If the backend ever exceeds 10 real calls, the k6 test fails automatically.
 
 **Sample Output**
 
-<img width="895" height="873" alt="Screenshot 2025-11-28 at 5 40 55 PM" src="https://github.com/user-attachments/assets/0dbcff77-8a3c-47a4-89c3-c07ff1a579d9" />
+![k6 Sample Output](images/k6-sample-output.png)
 
 
 
