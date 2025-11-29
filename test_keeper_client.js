@@ -18,7 +18,7 @@ if (!recordUid) {
 
     console.log('✅ Successfully fetched secret from Keeper.');
     console.log('Real Keeper latency (ms):', elapsed);
-    console.log('Record UID:', secret.recordUid || secret.uid);  // <- updated
+    console.log('Record UID:', secret.recordUid || secret.uid); 
     console.log('Record title:', secret.data?.title);
   } catch (err) {
     console.error('❌ Error fetching secret from Keeper:');
