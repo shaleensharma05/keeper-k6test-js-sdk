@@ -160,6 +160,8 @@ export BACKEND_URL="http://localhost:3000"
 k6 run src/k6_test.js
 ```
 
+
+
 **Load Model**
 ```text
 From src/k6_test.js: Executor: per-vu-iterations
@@ -189,10 +191,10 @@ Max Duration: 60s
 How the Request Limit Simulation Works
 
 ```text
-✅ Node.js Hard Cap (Authoritative)
+* Node.js Hard Cap (Authoritative)
 In-memory counter in server.js: After 10 real Keeper calls → always returns HTTP 429
 
-✅ k6 Hard Cap (Assertion)
+* k6 Hard Cap (Assertion)
 In k6_test.js: real_keeper_calls: ['count<=10']
 If the backend ever exceeds 10 real calls, the k6 test fails automatically.
 ```
